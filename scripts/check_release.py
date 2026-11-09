@@ -131,6 +131,10 @@ def validate(root, apksigner=None):
         require(archive.read(match[2]) == data, 'Install ZIP APK mismatch')
     if apksigner:
         completed = subprocess.run([str(apksigner), 'verify', '--verbose', '--print-certs', str(apk)], check=True, capture_output=True, text=True)
+        print('apksigner executable:', apksigner)
+        print('apksigner public verification output:', completed.stdout)
+        if completed.stderr:
+            print('apksigner verification diagnostics:', completed.stderr)
         # New apksigner versions label v3 signers by their supported SDK range.
         # A successful cryptographic verification and the original certificate
         # are required for every reported signer in either CLI format.
