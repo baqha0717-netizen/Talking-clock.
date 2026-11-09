@@ -131,8 +131,15 @@ def validate(root, apksigner=None):
         require(archive.read(match[2]) == data, 'Install ZIP APK mismatch')
     if apksigner:
         completed = subprocess.run([str(apksigner), 'verify', '--verbose', '--print-certs', str(apk)], check=True, capture_output=True, text=True)
-        fingerprints = re.findall(r'Signer #\d+ certificate SHA-256 digest: ([0-9a-fA-F]+)', completed.stdout)
-        require([value.lower() for value in fingerprints] == [expected], 'Verified signer mismatch')
+        # New apksigner versions label v3 signers by their supported SDK range.
+        # A successful cryptographic verification and the original certificate
+        # are required for every reported signer in either CLI format.
+        fingerprints = re.findall(
+            r'^Signer (?:#\d+|\(minSdkVersion=\d+(?: \(dev release=true\))?, maxSdkVersion=\d+\))'
+            r' certificate SHA-256 digest: ([0-9a-fA-F]{64})\s*$',
+            completed.stdout, re.MULTILINE)
+        require(bool(fingerprints) and {value.lower() for value in fingerprints} == {expected},
+                'Verified signer mismatch: ' + repr(fingerprints))
     return meta, apk, match[1]
 
 
