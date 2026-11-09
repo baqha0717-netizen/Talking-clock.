@@ -127,7 +127,7 @@ def validate(root, apksigner=None):
     install = public / ('SoatiGuyo-' + meta['versionName'] + '-Install.zip')
     with zipfile.ZipFile(install) as archive:
         require(archive.testzip() is None, 'Install ZIP CRC mismatch')
-        require(set(archive.namelist()) == {match[2], 'Readme-RU.txt', 'Updates-RU.txt', 'Testing-5.3.18.txt', 'PublicationStatus-RU.txt', 'verification.json', 'Strings-5.3.18.json'}, 'Unexpected install ZIP entry')
+        require(set(archive.namelist()) == {match[2], 'Readme-RU.txt', 'Updates-RU.txt', 'Testing-' + meta['versionName'] + '.txt', 'PublicationStatus-RU.txt', 'verification.json', 'Strings-' + meta['versionName'] + '.json'}, 'Unexpected install ZIP entry')
         require(archive.read(match[2]) == data, 'Install ZIP APK mismatch')
     if apksigner:
         completed = subprocess.run([str(apksigner), 'verify', '--verbose', '--print-certs', str(apk)], check=True, capture_output=True, text=True)
@@ -143,3 +143,4 @@ if __name__ == '__main__':
     args = parser.parse_args()
     meta, apk, tag = validate(args.root, args.apksigner)
     print(json.dumps({'version': meta['versionName'], 'tag': tag, 'apk': str(apk), 'sha256': meta['sha256'], 'signature_verified': bool(args.apksigner)}, ensure_ascii=False))
+

@@ -1,13 +1,11 @@
-# Соати гӯё
+# Соати гӯё 5.3.22
 
-Говорящие часы с таджикскими, персидскими и русским голосами. Автор: AMIN JON.
+Signed Android 10+ talking clock by AMIN JON. Russian, Tajik and Persian recordings; Russian and Tajik interface. Install the APK over the existing version to preserve settings.
 
-Скачать последнюю опубликованную версию: [Releases](https://github.com/baqha0717-netizen/Talking-clock./releases/latest).
+This update removes the screen-reader audio-track gate that could cancel manual, widget and scheduled speech after ten seconds. Enabling a reader during playback now releases the clock's focus while preserving its phrase. Reader sessions do not request global audio focus or change system volume. Wall-clock intervals are 5, 10, 15, 30 and 60 minutes.
 
-Для Android 10 и новее. APK устанавливается пользователем поверх предыдущей версии.
+266 JUnit tests and 285 service checks with simulated Android passed. Physical TalkBack/Jieshuo playback, locked-screen audio, installation and reboot have not been tested for this release.
 
-Версия 5.3.18 добавляет скорость речи и ночную громкость. Аудиозаписи, часы и расписание работают офлайн; интернет используется для проверки и скачивания обновлений.
+The publication workflow verifies the approved payload's size and SHA256, reconstructs the signed APK and deterministic installation ZIP, validates the Android package/version and original signing certificate with apksigner, and uploads all assets through a draft release. It checks uploaded bytes before making the release latest, then checks public downloads. Existing published releases are immutable.
 
-Этот репозиторий содержит подписанные дистрибутивы и автоматизацию публикации. Исходный архив владельца, ключ подписи и личные диагностические отчёты сюда не загружаются.
-
-Релиз публикуется автоматически после доставки полного набора файлов и проверки размера, SHA-256, пакета, версии Android и подписи APK.
+Only signed distributions, public metadata, notes and publication automation belong here. Owner-private source, signing keys and private diagnostic reports are excluded.
