@@ -12,7 +12,19 @@ REPO = 'baqha0717-netizen/Talking-clock.'
 
 
 def gh(*args, check=True):
-    return subprocess.run(['gh', *args], check=check, capture_output=True, text=True)
+    result = subprocess.run(['gh', *args], check=False, capture_output=True, text=True)
+    if check and result.returncode:
+        raise RuntimeError('GitHub command failed: ' + result.stderr[:4000])
+    return result
+
+
+def find_release(tag):
+    # A draft's tag may not exist yet; /releases/tags/:tag can return404.
+    releases = json.loads(gh('api', f'repos/{REPO}/releases?per_page=100').stdout)
+    matches = [release for release in releases if release['tag_name'] == tag]
+    if len(matches) > 1:
+        raise ValueError('Ambiguous release tag')
+    return matches[0] if matches else None
 
 
 def publish():
@@ -24,24 +36,28 @@ def publish():
     assets = [apk, 'SoatiGuyo-' + meta['versionName'] + '-Install.zip',
               'latest.json', 'notes-ru.txt', 'notes-tg.txt', 'signing-cert.sha256']
     # An already published version is immutable. Re-runs only verify live bytes.
-    found = gh('api', f'repos/{REPO}/releases/tags/{tag}', check=False)
-    if found.returncode == 0:
-        release = json.loads(found.stdout)
+    release = find_release(tag)
+    if release is not None:
         if not release.get('draft'):
             subprocess.run(['python3', str(ROOT / 'scripts/verify_live.py')], check=True)
             print('Release already published and verified:', tag)
             return
         if release.get('target_commitish') != os.environ['GITHUB_SHA']:
-            raise ValueError('Existing draft belongs to a different commit')
-        if release.get('assets'):
-            raise ValueError('Existing draft has assets; inspect before retrying')
+            # Resume only this known draft from our interrupted5.3.22 run.
+            if not (tag == 'v5.3.22' and release['id'] == 439106549
+                    and release['target_commitish'] == 'b749c0c96e991d1fb542bf3468202d2a09689a2d'):
+                raise ValueError('Existing draft belongs to a different commit')
     else:
         # --draft prevents latest.json from advertising an incomplete release.
         gh('release', 'create', tag, '--draft', '--target', os.environ['GITHUB_SHA'],
            '--title', 'Соати гӯё ' + meta['versionName'],
            '--notes-file', str(ROOT / 'public/notes-ru.txt'))
-    gh('release', 'upload', tag, *[str(ROOT / 'public' / name) for name in assets])
-    release = json.loads(gh('api', f'repos/{REPO}/releases/tags/{tag}').stdout)
+        release = find_release(tag)
+    if release is None or not release.get('draft'):
+        raise ValueError('Expected a draft release')
+    if not release.get('assets'):
+        gh('release', 'upload', tag, *[str(ROOT / 'public' / name) for name in assets])
+    release = json.loads(gh('api', f'repos/{REPO}/releases/{release["id"]}').stdout)
     actual = {a['name']: a for a in release['assets']}
     if set(actual) != set(assets):
         raise ValueError('Uploaded release assets mismatch')
@@ -55,10 +71,13 @@ def publish():
             local = hashlib.sha256((ROOT / 'public' / name).read_bytes()).digest()
             if remote != local:
                 raise ValueError('Uploaded asset hash mismatch: ' + name)
-    gh('release', 'edit', tag, '--draft=false', '--latest')
+    gh('api', '--method', 'PATCH', f'repos/{REPO}/releases/{release["id"]}',
+       '-F', 'draft=false', '-f', 'make_latest=true', '-f',
+       'target_commitish=' + os.environ['GITHUB_SHA'])
     subprocess.run(['python3', str(ROOT / 'scripts/verify_live.py')], check=True)
     print('Published and verified:', tag)
 
 
 if __name__ == '__main__':
     publish()
+
