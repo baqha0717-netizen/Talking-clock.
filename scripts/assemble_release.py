@@ -5,7 +5,7 @@ from pathlib import Path
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = '5.3.22'
+VERSION = '5.3.23'
 APK = 'SoatiGuyo-' + VERSION + '-Android10plus.apk'
 INSTALL = 'SoatiGuyo-' + VERSION + '-Install.zip'
 DOCS = ['Readme-RU.txt', 'Updates-RU.txt', 'Testing-' + VERSION + '.txt',
@@ -34,7 +34,7 @@ def assemble():
         if part['path'] != expected:
             raise ValueError('Invalid part path/order')
         data = checked((payload / part['path']).read_bytes(), part)
-        if not 1 <= len(data) <= 32768:
+        if not 1 <= len(data) <= 262144:
             raise ValueError('Invalid part length')
         result.extend(data)
         if len(result) > 128 * 1024 * 1024:
@@ -64,3 +64,4 @@ def assemble():
 
 if __name__ == '__main__':
     assemble()
+
