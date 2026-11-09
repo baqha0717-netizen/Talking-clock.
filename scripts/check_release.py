@@ -135,11 +135,11 @@ def validate(root, apksigner=None):
         print('apksigner public verification output:', completed.stdout)
         if completed.stderr:
             print('apksigner verification diagnostics:', completed.stderr)
-        # New apksigner versions label v3 signers by their supported SDK range.
+        # apksigner labels vary: numbered, SDK range, or "V3.0 Signer:".
         # A successful cryptographic verification and the original certificate
         # are required for every reported signer in either CLI format.
         fingerprints = re.findall(
-            r'^Signer (?:#\d+|\(minSdkVersion=\d+(?: \(dev release=true\))?, maxSdkVersion=\d+\))'
+            r'^(?:Signer (?:#\d+|\(minSdkVersion=\d+(?: \(dev release=true\))?, maxSdkVersion=\d+\))|V[1-4](?:\.\d+)? Signer:)'
             r' certificate SHA-256 digest: ([0-9a-fA-F]{64})\s*$',
             completed.stdout, re.MULTILINE)
         require(bool(fingerprints) and {value.lower() for value in fingerprints} == {expected},
