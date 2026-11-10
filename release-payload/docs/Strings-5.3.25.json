@@ -1,0 +1,9 @@
+{
+  "version": "5.3.25",
+  "signal_title_ru": "Сигнал перед временем",
+  "signal_title_tg": "Садо пеш аз гуфтани вақт",
+  "choices": 7,
+  "new_signals": 6,
+  "none_option": true,
+  "legacy_persian_choices_preserved": 13
+}

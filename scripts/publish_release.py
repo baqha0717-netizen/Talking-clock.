@@ -5,6 +5,7 @@ from pathlib import Path
 import subprocess
 import hashlib
 import tempfile
+import time
 from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -52,7 +53,12 @@ def publish():
         gh('release', 'create', tag, '--draft', '--target', os.environ['GITHUB_SHA'],
            '--title', 'Соати гӯё ' + meta['versionName'],
            '--notes-file', str(ROOT / 'public/notes-ru.txt'))
-        release = find_release(tag)
+        # A new draft may appear in the list with a short delay.
+        for attempt in range(6):
+            release = find_release(tag)
+            if release is not None:
+                break
+            time.sleep(1)
     if release is None or not release.get('draft'):
         raise ValueError('Expected a draft release')
     if not release.get('assets'):
@@ -80,4 +86,5 @@ def publish():
 
 if __name__ == '__main__':
     publish()
+
 
