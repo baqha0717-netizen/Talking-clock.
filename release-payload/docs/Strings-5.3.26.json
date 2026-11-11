@@ -1,0 +1,13 @@
+{
+  "new_keys": [
+    "updates_channel",
+    "updates_notification_body",
+    "updates_notification_permission",
+    "updates_notification_permission_hint"
+  ],
+  "changed_keys": [
+    "updates_auto",
+    "updates_privacy"
+  ],
+  "locale_key_parity": true
+}

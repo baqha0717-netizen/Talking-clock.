@@ -1,1 +1,1 @@
-Версия 5.3.25 подготовлена для публикации. Проверяйте результат по странице релиза: https://github.com/baqha0717-netizen/Talking-clock./releases/tag/v5.3.25
+Релиз и канал обновлений: https://github.com/baqha0717-netizen/Talking-clock./releases/tag/v5.3.26

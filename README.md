@@ -1,7 +1,9 @@
-# Соати гӯё 5.3.25
+# Соати гӯё
 
-Android10+ talking clock by AMIN JON, with Tajik/Russian UI and offline voices. Six user-provided signals are now available before time with every voice, with an explicit silent choice and signal/time test. Existing voice recordings and settings are preserved. Widget auto controls are removed; scheduling and sound controls are organized in their sections.
+Говорящие часы для Android 10 и новее. Автор: AMIN JON.
 
-271 JUnit and301 fake-Android service checks passed. All897 old and6 new MP3s match their sources. No physical phone audio, UI or screen-reader tests have been performed.
+Версия 5.3.26 возвращает прежние таджикские записи с обрезкой начала на 1 секунду 450 мс и добавляет уведомления о будущих обновлениях. Включите автоматическую проверку в разделе «Обновления» и разрешите уведомления Android. Проверка выполняется примерно раз в сутки; система может отложить её. Загрузка и установка — по нажатию пользователя.
 
-Publication verifies payload, APK package/version/minSdk, original signature, uploaded bytes and public downloads before/after promotion to latest. Only distributions, public notes/metadata and release automation belong here. Private source and signing keys are excluded.
+[Скачать APK](https://github.com/baqha0717-netizen/Talking-clock./releases/latest)
+
+Озвучивание и расписание работают без интернета. Интернет нужен проверке и загрузке обновлений. В репозитории размещаются подписанные дистрибутивы, публичные метаданные и проверяемая автоматизация публикации. Приватные исходники и ключ подписи сюда не включаются.

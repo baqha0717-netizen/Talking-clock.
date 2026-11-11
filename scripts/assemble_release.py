@@ -5,7 +5,7 @@ from pathlib import Path
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = '5.3.25'
+VERSION = '5.3.26'
 APK = 'SoatiGuyo-' + VERSION + '-Android10plus.apk'
 INSTALL = 'SoatiGuyo-' + VERSION + '-Install.zip'
 DOCS = ['Readme-RU.txt', 'Updates-RU.txt', 'Testing-' + VERSION + '.txt',
@@ -64,5 +64,6 @@ def assemble():
 
 if __name__ == '__main__':
     assemble()
+
 
 
