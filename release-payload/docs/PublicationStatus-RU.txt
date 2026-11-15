@@ -1,1 +1,2 @@
-Релиз и канал обновлений: https://github.com/baqha0717-netizen/Talking-clock./releases/tag/v5.3.26
+Официальный канал обновлений: https://github.com/baqha0717-netizen/Talking-clock./releases/latest
+Установка и скачивание выполняются по решению пользователя.

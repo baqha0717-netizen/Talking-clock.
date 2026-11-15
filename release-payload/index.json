@@ -1,311 +1,311 @@
 {
   "schema": 1,
-  "version": "5.3.26",
+  "version": "5.4.2",
   "files": [
     {
-      "name": "SoatiGuyo-5.3.26-Android10plus.apk",
-      "bytes": 15574279,
-      "sha256": "313d2e7aad341cbfe57b0be1fb3329244942c59780ac769e450bd80aa368f5e2",
+      "name": "SoatiGuyo-5.4.2-Android10plus.apk",
+      "bytes": 15607122,
+      "sha256": "9305ba1b373e0adfa4cb9ee2a9e13217f270c9e4a72cbcd568304fb570496ba2",
       "parts": [
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/000.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/000.bin",
           "bytes": 262144,
-          "sha256": "3484008ecf664facacf1de37640b306814831619f584ab2fa0d4d36f0180d51f"
+          "sha256": "03db4b5d694f29b2fd401946b1fce981a567fcd50b14633f7b9e236669f34c34"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/001.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/001.bin",
           "bytes": 262144,
-          "sha256": "656e8a81f9465b2e32634f5aa1ec394befa1d2cd9edbd50059af2a6d711ff489"
+          "sha256": "f959c691530d9c9f78a864b2f7d38b311f8464130228cd946bccd2b3648284df"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/002.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/002.bin",
           "bytes": 262144,
-          "sha256": "99ec99b696e1445321dd1b1307db590999bd07c75240640dbfff0331882a3fcc"
+          "sha256": "c98d804955cb073bb1ea130e0bc67563c16e6ef8bdab7339066283ce48426834"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/003.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/003.bin",
           "bytes": 262144,
-          "sha256": "6b34307f9ae62370fb5543e3bae0a203ceb217da7c3b0d5e62f473e0247cbfa8"
+          "sha256": "5c758fc4ab84c7fd886e75cbde0fe84d4ee03e4e0591f5f10d3f77d9d0dbc622"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/004.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/004.bin",
           "bytes": 262144,
-          "sha256": "22131b59c7ea94846aa8318b97117723686e7e0ba51fb9939d2e330ba392a36b"
+          "sha256": "3928f712871b9e800db75a4e3773cee003655dc70d426ad1b567c31da4e549e0"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/005.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/005.bin",
           "bytes": 262144,
-          "sha256": "af67e117125421c61058b1356c4f6bf249e9ef2769b610184669dce95b8bb26d"
+          "sha256": "fe22f2ccc4179225496f519609491e952de9fce08641202c12db5b6af6397884"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/006.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/006.bin",
           "bytes": 262144,
-          "sha256": "75153fad1905b0fca9569148e317758a9fa27eb92aa3134aa253e733d0d30491"
+          "sha256": "00ac224ab729fb0ffee1eebeaa409d28801381d28e6223a995f2446ef3734448"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/007.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/007.bin",
           "bytes": 262144,
-          "sha256": "6df48aa32e67474af31e81091ba6bc48ed5f777ed5c7a76192cde07f2606562b"
+          "sha256": "4bc650889258b55bff03be2a9f28aec1c7dc623019f8a95e4fdb6b7066bdaa70"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/008.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/008.bin",
           "bytes": 262144,
-          "sha256": "ab4227ba90fb74ed22e01df790cdb748c152c595cce1b05265952aa3685f8251"
+          "sha256": "0fd02ce8d4548345af42e85e36916d0de0764be0b392c659df71f1f57925cb79"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/009.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/009.bin",
           "bytes": 262144,
-          "sha256": "ce99e66e6654be7e6b2e51e03f4792205a89584fd4bdde833f06a9a4bd25de4a"
+          "sha256": "a50370f1a78c1fbc00f8140a8e6298bc55eb609689dedb625780ec580568d1fb"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/010.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/010.bin",
           "bytes": 262144,
-          "sha256": "ed082767758fe2b19207b5cd60898630a4aad218f17536ae114202f3bb150ccf"
+          "sha256": "19288f155d327e98f892df64bc32ddf6b028a7defdebd7d8e58bb14ebec600df"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/011.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/011.bin",
           "bytes": 262144,
-          "sha256": "1b6c271ca5f5ef02b2a81606dd413038e1ebc8fc08c15687b5308317441b4a5e"
+          "sha256": "1ecb7c1e9567079c9a365635400fb929a25f848292bcb486a8f92cc2f8860dda"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/012.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/012.bin",
           "bytes": 262144,
-          "sha256": "b20babbb169763e6050eda725aafa6cd123c48a93e066713cfb99043533bf86e"
+          "sha256": "0f20e27238f5212428150b433cb163f5791185ba15f33b453d6717890c436954"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/013.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/013.bin",
           "bytes": 262144,
-          "sha256": "d94d47dfcdcb1b1ef002bc8ba07b624dd655eeebf6aec32449a9724c25bbc768"
+          "sha256": "5fb3c67043201c3f7a0094086929f48146136d655a6c9e63811f41d781704382"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/014.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/014.bin",
           "bytes": 262144,
-          "sha256": "8166f723c726f5cd088cd9461782dd441173f1c6292610baf35e65bd6d6c96dc"
+          "sha256": "13672b6b781f7991d7df57957cf3d23a1d3bac16c6a62280bb8f419085ec3488"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/015.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/015.bin",
           "bytes": 262144,
-          "sha256": "3a2040ce5c0b3531ae2484dcda547f2d6a2646a057f63601da364fe30a1f1c4a"
+          "sha256": "9cae31992504f35f376af9752e75bd8c546f8365d6ba77ca3e861c48aea2191e"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/016.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/016.bin",
           "bytes": 262144,
-          "sha256": "0eab77ad7a7828ba83fa497ac20c99877517d1e13a5530a838a0131a88e15995"
+          "sha256": "e7fc16ecca878062131b63dd1e53a5e47328aedbf2926c640e942be604fb4eda"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/017.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/017.bin",
           "bytes": 262144,
-          "sha256": "806dff555c556897880a9b7fc1d82769ee1cdf3e9ee254800d98e6992023726d"
+          "sha256": "0aa51a602e1ec699cc93633d9f8741fd529c2a516c30a06044f1bc4b48884c8a"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/018.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/018.bin",
           "bytes": 262144,
-          "sha256": "99286337d1e8f86063016132037c52e3a1e8a8975f69def5f74b98ef89e33cd9"
+          "sha256": "60519702bccfffa13af71255919f76bffec710edb5eb9c73084c8edb247c386d"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/019.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/019.bin",
           "bytes": 262144,
-          "sha256": "16e11dafd3711af1199d104ee7bcd0fd7bc080393f427096b706f023a7a4927d"
+          "sha256": "2d98eccb21e7a7cc461f4eaa974317a86cff53f25ae4a4d1547fec83233d9fd5"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/020.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/020.bin",
           "bytes": 262144,
-          "sha256": "f96df77a749d43ca96a0e20947b6629ca93ca7d13a4df5e41252a752a10851ab"
+          "sha256": "1c9887a0734922e34e881e3146f6efc892b0929c08306345162f0865376ff359"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/021.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/021.bin",
           "bytes": 262144,
-          "sha256": "7d5dd9d1c60e2e98525d8b1fb496068e36b1d624b65b7eed15037c86e32150d9"
+          "sha256": "148e92e01099be35b98ab9969569740b66a85738caee4917bbba86033881f2f5"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/022.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/022.bin",
           "bytes": 262144,
-          "sha256": "ea8c8b0f31b8cd52c7d9a68006f324cfbc2b508e1e18ab705d3f2b9050546490"
+          "sha256": "cdcfc4a06aa7702fb248593ab8db7d9ee4201583902fe1713d9600c84cbbf6c5"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/023.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/023.bin",
           "bytes": 262144,
-          "sha256": "99a0a56833ef3a78f99a9e58cffc934af567cb164b8ae559625c49b0730a29a8"
+          "sha256": "ca6ae65c6e3fb0d289f56e8ebb96a57eb2b48fcfb72fb6463589c8f5959b6b7f"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/024.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/024.bin",
           "bytes": 262144,
-          "sha256": "f42589ae12b695d4a3b6f6478ab1e49b239721eb8118502dc005ebedf8739657"
+          "sha256": "d1a0d63f6bbc8dc34acd0e8b635c7da464edb4b13c2490de7d93e00867d0d6ff"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/025.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/025.bin",
           "bytes": 262144,
-          "sha256": "93577561a8fb69fab352768af82acd9ff82e10203840673fd4253c82939a0894"
+          "sha256": "848486fdf97e3647fe28f2aaf6231b8032dc483788cb91b6c3ad8246d4c3770f"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/026.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/026.bin",
           "bytes": 262144,
-          "sha256": "b343d34c8cc6025167c3b24736282aa8ac962199bb1750e76bd9946eceab68af"
+          "sha256": "9bdbc5ef87a82d4af8007d5d60340e379d6080102d2954e45c53bef121e2df0a"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/027.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/027.bin",
           "bytes": 262144,
-          "sha256": "4ada46916da84d2b53ce147055ab10508979faa6a30951e04715093808731f93"
+          "sha256": "1c356f4a246998960961829c48b76f821d2004faa9c64f7d2e36ba7e1b5d9235"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/028.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/028.bin",
           "bytes": 262144,
-          "sha256": "8d6be672a83a0eb5e6cefec99f631b2cca4d42cc300b6228f42e3740436614d5"
+          "sha256": "5a9bc5c4283da4771c5a8dc5439f9a8b709af1470863be0f19188f2e332eeb2c"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/029.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/029.bin",
           "bytes": 262144,
-          "sha256": "9b668d42e291dfa0b5dae31775b48539f3aeebf9e30a4f665ff7d7ba4a2133ee"
+          "sha256": "3e886801cb0642785709f21da4d46abf111bf3dbc91002b4a647fc8e542be431"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/030.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/030.bin",
           "bytes": 262144,
-          "sha256": "e116aebc52b400abb5eb189d6f7247a4067e30ffdf30c05adc416fed4ffd2daa"
+          "sha256": "e22e579f9bc6c61a69a33f092a314184f15a066cc1a241704c8d5402f2d64fc5"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/031.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/031.bin",
           "bytes": 262144,
-          "sha256": "b4e67fff6d38acaa883f51aa36f064c079e6ad919144f77c3010638a8fe87225"
+          "sha256": "d96d12f2641424398844bb39e78877de436f1092147f976900773f4a475642d2"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/032.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/032.bin",
           "bytes": 262144,
-          "sha256": "2769d0f9ed63b4220015179968d51837b193e81d2076e552cbcb0d76c4b6d9e2"
+          "sha256": "e84c68fb31b6b23575ab77da7765e83c07f3ab70c1605dab983e67477ca0a7aa"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/033.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/033.bin",
           "bytes": 262144,
-          "sha256": "bf48fbd0974778a4032db31c4cd3726ce458e4cecd7201b02f003beb2c543eb2"
+          "sha256": "723ba9fd873e3c05d66c184d37f2b2332ddcbe3877d5f0316b4f6951a6f03216"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/034.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/034.bin",
           "bytes": 262144,
-          "sha256": "a1d8d587050842715bd82d1816e97cac1f773b1af2815da609702d43aac0c684"
+          "sha256": "e77eb8cc1abff22455f1f54765475409b7a2c4456f78449e32a5d1d2682e4bdf"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/035.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/035.bin",
           "bytes": 262144,
-          "sha256": "badb4a0c96ae825d36c8f8e361477f51ef09a6f7d88720e41f61bb05e123c87b"
+          "sha256": "618fcf36ae613b5d0e8ecad585adbab12e4ba7852bb9504460b87bdcbbfd73b4"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/036.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/036.bin",
           "bytes": 262144,
-          "sha256": "d80b852a31373132ca39228fde7701cb224853f43505ca83ff56b202143f6a70"
+          "sha256": "c28366da56af4088ab3d8111bcc4a995e8d4eef9444380ad0063f241ee0f1de9"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/037.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/037.bin",
           "bytes": 262144,
-          "sha256": "b10fc006c1d11147d868f78fa885c91f5b61a7740d3a5188a2737e9478118265"
+          "sha256": "016ae7e6cf6d6203492e0d02a726d1240fbf14764412fc4aa0533dbb767bf847"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/038.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/038.bin",
           "bytes": 262144,
-          "sha256": "9492ff8686a08efb02edb5c52cf486798cd7724a8b226dc85733539f5fd8e755"
+          "sha256": "930a9ecca2c327a62f0e0fdb05075ac3cc850beb56f5196f4350b9ee1fdd0501"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/039.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/039.bin",
           "bytes": 262144,
-          "sha256": "5702a6b3a3f4fbcff46e28dc9cea3bb8e4faa3e3620f991d995e69727fadeb4d"
+          "sha256": "a6416ba4ed10f8ae3f4efc6646b41c551f90595e79b380a1e727881a1bbb2613"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/040.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/040.bin",
           "bytes": 262144,
-          "sha256": "65369d3cb8b02cb25aae1f4c56a151cd1c51c641569a2fadc961597ed453d8d9"
+          "sha256": "f60f7fd76ea4f157129eac74a1d13ea941d71194738430fdeff81c9686bc0e4c"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/041.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/041.bin",
           "bytes": 262144,
-          "sha256": "110ef02e7ff7a6d19f6ee9cfc1416d54766bc354c344b33544ed0845b715dbfb"
+          "sha256": "9fbc8446e7b87f402707efb3792be8e2b1d4f9a046eb1c017ffbc9616eb420ab"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/042.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/042.bin",
           "bytes": 262144,
-          "sha256": "bdc4f4e92e4fca549763aaac408601d078dcc43f68a5434b88db7ea62efbc4bc"
+          "sha256": "2249752d00ae264896fcd2f0020327f6dbf589549dac18146b0b35b56b326814"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/043.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/043.bin",
           "bytes": 262144,
-          "sha256": "15bd1d8d796d421d005b62c4113ae6299ab0ac94fbcf9ec5529247fd8dff1ae9"
+          "sha256": "8b18bf79a8e00f70d618e46737363c50d30007d8ad6f8d5c0df8a6a2f98414a9"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/044.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/044.bin",
           "bytes": 262144,
-          "sha256": "3d28ede1df8b0d03209c9b47396a30a6ee230d706026f4c6fe426092cbf0cea1"
+          "sha256": "69b75e8550712a02f441195772636e1801418d6dbacd35b173854750e0473ca5"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/045.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/045.bin",
           "bytes": 262144,
-          "sha256": "dcddb6e76e62dccdce5523dda588e166d1cd4a1726609030c73dc0e3c8e11b7e"
+          "sha256": "c17013d071f46e2def11c8a9194d032dba5ab94dac5e0f8a000f4c035252528b"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/046.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/046.bin",
           "bytes": 262144,
-          "sha256": "bfe868fd5025fe604dbe87360e312bd6e0b9b122aead27b233610cbbad038d95"
+          "sha256": "d7dec842238697bc84e1a3746399802c090aa603a2f39fabb887bb3f1eaae835"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/047.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/047.bin",
           "bytes": 262144,
-          "sha256": "71a66ebc45429eb360961be601f3d4afdde243ccc19b114dfca7f54a1b5221e3"
+          "sha256": "8a360ba2e40b7aa8630e4dd9e3231df600c67cc658a2c00e8948bdc39548814d"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/048.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/048.bin",
           "bytes": 262144,
-          "sha256": "e8a17654ad3ef9648c512e8c063a81e382618a877182f429dbbf2d2947a7b1a0"
+          "sha256": "c0e87c834b12eca27bdbb5cf1b27dee1098cc79b1fde3ae6f8be5fba7abef3e6"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/049.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/049.bin",
           "bytes": 262144,
-          "sha256": "6d59788942abfe304915fc3b78f87fdea5f84689f09e5dcc4fd2de1f41bb1d23"
+          "sha256": "d4d030788abf62cb05374a4634a56f89cf9690b788de8030389f81524e56a983"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/050.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/050.bin",
           "bytes": 262144,
-          "sha256": "4b4b8df5435e8f63b745b0fb02eb1b7d0f021f6ad85e06bd16e2346dcb7edbf2"
+          "sha256": "59fe2bbc75049a2bc7daac595a87bdf76a2ae27ec5cd188edcd86fc261dc92d1"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/051.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/051.bin",
           "bytes": 262144,
-          "sha256": "15a008377d03d79c848f012f450d72d3c45736a3de8fe008a8fe9c6f5279908e"
+          "sha256": "3ef013821f3637dd9eb78c0adc478e15378b5087cc09ec46f0cb69c87a02c60c"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/052.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/052.bin",
           "bytes": 262144,
-          "sha256": "7191e058fc5699ce1db6e18badaffe55166363fde82557814bf9f438e9908161"
+          "sha256": "cbc60ec016f89fba2e149542996d7bf67417a0912d1df0579f11ac9d78289144"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/053.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/053.bin",
           "bytes": 262144,
-          "sha256": "01860fecdc8d3a42d629b89d9c959866f442c241442e17f06c6e564dadc897c2"
+          "sha256": "fc98467ca6f8524201a6c4bef34a1b6e831749be8361f03ab28062cc4e9668fc"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/054.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/054.bin",
           "bytes": 262144,
-          "sha256": "a9203143474a2d8959b0106871c1244d593a18862e1a5f88c107cdde384f427e"
+          "sha256": "bcf9613414a9e25904b5a1c6dfe48275ffceef3171dbbfac99108e465aa6c218"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/055.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/055.bin",
           "bytes": 262144,
-          "sha256": "5df11a7ee1ec40666d3499319c879f80826e99ee286ea352533cbd559d213d12"
+          "sha256": "2c72026b8b6f618f5a6b9bd5d7917dce8f596c6bc2e6f88e942d4f43d20a9d02"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/056.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/056.bin",
           "bytes": 262144,
-          "sha256": "c99d1698dee21a5dc4cc7a13efa7c6433e6e75ea9de53a0922161544178534fd"
+          "sha256": "fc569558f9855b4beb46712640c3a8f3a86b46f00c1487d960f3a1a327aba377"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/057.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/057.bin",
           "bytes": 262144,
-          "sha256": "be9352be4c02a9353d6ad6854a5d5d7e07eac97ebbfacf22797904bafb0d82d8"
+          "sha256": "642c6ac33f7fc80688ce758b2f77b570ad029efc20e16f59a0830348e1827616"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/058.bin",
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/058.bin",
           "bytes": 262144,
-          "sha256": "ac683da10de39508c0c74e9ba26e2bd06ad926e9b51328b3d61294e641222f24"
+          "sha256": "1b94fcd08cf17cb5ece1d9690b9be5939c7a55f929286c7da93c3e871f992611"
         },
         {
-          "path": "SoatiGuyo-5.3.26-Android10plus.apk.parts/059.bin",
-          "bytes": 107783,
-          "sha256": "ca8057243e8992d1c820bf43cc6f498bc69e544330e93869688dc88f44832659"
+          "path": "SoatiGuyo-5.4.2-Android10plus.apk.parts/059.bin",
+          "bytes": 140626,
+          "sha256": "47923b88dd53b897965075bcb8bf0c6762413e6c262d9bdff28b474bc8558002"
         }
       ]
     }
@@ -313,38 +313,38 @@
   "docs": [
     {
       "name": "Readme-RU.txt",
-      "bytes": 360,
-      "sha256": "f41542bd2728c0c27d475255602918a2e6208715a32c8887907a92437d1f9126"
+      "bytes": 416,
+      "sha256": "3af04356d57c18cec7ad8b6141e94bb4915297f675503adb0f11d0c1280ed153"
     },
     {
       "name": "Updates-RU.txt",
-      "bytes": 995,
-      "sha256": "12129fe6fa42ecf0ada3b9424092ff717df2709e829d74a3a21988ccaf257ed2"
+      "bytes": 1640,
+      "sha256": "48fe94234f68ccb24e860e0e68f2a281cf3b935713210977f70296a28f517f0e"
     },
     {
-      "name": "Testing-5.3.26.txt",
-      "bytes": 2173,
-      "sha256": "2d3db4bef9ca26eeb41a5717e8155719eb84e1a4c136dc381540adcdb270634b"
+      "name": "Testing-5.4.2.txt",
+      "bytes": 874,
+      "sha256": "fac47c1daa714669b189f3ae803cc3a9275670acbfb91fc15847f79cfafc9bbe"
     },
     {
       "name": "PublicationStatus-RU.txt",
-      "bytes": 120,
-      "sha256": "c2ec0c33678dcd4172cb862905695f6570678b5686f3884162e0f56724be5761"
+      "bytes": 236,
+      "sha256": "3f701c380381563fca87d6f674446973898c413e27a1c1a664559cbdd372b868"
     },
     {
       "name": "verification.json",
-      "bytes": 765,
-      "sha256": "c23ef7bc816a6b4dca5dbec0240872dcdb3ebe1276379d4ce73ca7296be31709"
+      "bytes": 361,
+      "sha256": "dbcb5804a6742d4665c41d91e45569e4c0a34c1d7a938cdaa145faacdfede101"
     },
     {
-      "name": "Strings-5.3.26.json",
-      "bytes": 258,
-      "sha256": "556d1f11a6146139e1645cdcab22d5aa83c4c15e2a7a9d0c73ee44659d5ed4ca"
+      "name": "Strings-5.4.2.json",
+      "bytes": 1163,
+      "sha256": "ac0c697ec28b612e63eac4d8a8cbe2953f9777b446ffa5b3fa5b85efa76bab0b"
     }
   ],
   "install": {
-    "name": "SoatiGuyo-5.3.26-Install.zip",
-    "bytes": 14113426,
-    "sha256": "f10868c4549f4db24c6d10b452f5b934c822adf2e5534892c6fe2c722a334856"
+    "name": "SoatiGuyo-5.4.2-Install.zip",
+    "bytes": 14130175,
+    "sha256": "3c2355123450afea28dd48af24ca015fc3338040903e811f9a6f857c90a9cd0a"
   }
 }
